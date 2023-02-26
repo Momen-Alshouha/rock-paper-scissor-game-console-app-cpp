@@ -1,6 +1,6 @@
 # A Small Game Program For Rock-Paper-Scissor Using C++ And Functional Programming Paradigm 
 
-## Requirements
+## How The Game Works
 1. Ask A User For How Many Rounds The Game Will Be .
 2. Start Each Round Player VS Computer .
 3. Show The Result With Each Round .
