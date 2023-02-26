@@ -239,17 +239,18 @@ void changeGameInfo(stGameInfo &gameInfo,stRoundInfo roundInfo,short rounds) {
 
 
 void startGame() {
-	char playMore='y';
-	stRoundInfo roundInfo;
-	stGameInfo gameInfo;
-	roundInfo.roundNumber = 1;
-	short roundsNumber;
-	short playChoice = 0, compChoice;
-	enWinner roundWinner;
+	char playMore = 'y';
 	do
 	{
+		stRoundInfo roundInfo;
+		stGameInfo gameInfo;
+		roundInfo.roundNumber = 1;
+		short roundsNumber;
+		short playChoice = 0, compChoice;
+		enWinner roundWinner;
 		short counter = readPostiveNumber("How Many Rounds Do You Want To Play:");
 		gameInfo.roundsNumber = counter;
+
 		do
 		{
 			printGameMenu(roundInfo.roundNumber);
